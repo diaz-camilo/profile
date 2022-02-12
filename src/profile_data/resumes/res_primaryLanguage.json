@@ -1,0 +1,114 @@
+{
+  "basic_info": {
+    "description_header": "Hi 👋",
+    "description": [
+      "I'm Camilo Diaz. A junior full-stack developer, IT Student and former Chef. I have a true passion for programming and am genuinely motivated by challenges and learning new skills that help me grow personally and professionally. This has sparked my curiosity and drive to embark on a new career in technology-software development.",
+      "I've recently finished a contract with Accenture where I work on the improvement of myBubby, an automation tool for inter-company communications, engagement and information gathering that reaches >510K users globally.",
+      "Before that, I had a successful 10-year-long career in hospitality where I worked all my way up from Commis Chef to Head Chef. In that time I developed many valuable soft skills like problem-solving, attention to detail, team-building and many more! that have already helped me a lot as a programmer."
+    ],
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Recipes Web App",
+      "startDate": "2021",
+      "description": "Personal project that fetch recipes from the Tasty API and provide several filering capabilities and localy persisted list of favourites",
+      "images": [
+        "images/portfolio/tasty/1.png",
+        "images/portfolio/tasty/2.png",
+        "images/portfolio/tasty/3.png",
+        "images/portfolio/tasty/4.png"
+      ],
+      "url": "https://diaz-camilo.github.io/Tasty-frontend/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "react"
+        },
+        {
+          "class": "devicon-redux-original",
+          "name": "Redux"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        }
+      ]
+    },
+    {
+      "title": "React Calculator",
+      "startDate": "2021",
+      "description": "Online calculator using react with data validation using regular expressions",
+      "images": [
+        "images/portfolio/calculator/1.png",
+        "images/portfolio/calculator/2.png",
+        "images/portfolio/calculator/3.png"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "3D Object Viewer",
+      "startDate": "2015",
+      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Accenture",
+      "title": "Junior Front-End Developer",
+      "years": "Jan 2022 - Feb 2022",
+      "mainTech": ["React", "Python", "Splunk"],
+      "technologies": [
+        "REST API",
+        "React.js",
+        "JavaScript",
+        "Bootstrap",
+        "Splunk",
+        "Python",
+        "CherryPy"
+      ]
+    }
+  ]
+}
