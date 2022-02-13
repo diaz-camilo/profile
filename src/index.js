@@ -6,7 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const availableLanguages = [
-  { language: "en", flag: "united-kingdom" },
+  { language: "en", flag: "australia" },
   // { language: "es", flag: "spain" },
 ];
 

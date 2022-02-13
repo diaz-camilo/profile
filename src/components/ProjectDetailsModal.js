@@ -32,8 +32,18 @@ function ProjectDetailsModal(props) {
       });
       if (props.data.images) {
         var media = images.map((elem) => {
-          // return { source: `${process.env.PUBLIC_URL}/${elem}` };
-          return { source: `${process.env.PUBLIC_URL}/${elem}` };
+          return (
+            <div
+              key={elem}
+              style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL}/${elem})`,
+                backgroundSize: "cover",
+                backgroundPosition: "top left",
+                height: "100%",
+                width: "100%",
+              }}
+            />
+          );
         });
       }
     }
@@ -73,7 +83,6 @@ function ProjectDetailsModal(props) {
           </div>
 
           <AutoplaySlider
-            // media={media}
             play={true}
             cancelOnInteraction={true}
             interval={4000}
