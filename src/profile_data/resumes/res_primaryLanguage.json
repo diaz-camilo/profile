@@ -17,7 +17,7 @@
     {
       "title": "Recipes Web App",
       "startDate": "2021",
-      "description": "Personal project that fetch recipes from the Tasty API and provide several filering capabilities and localy persisted list of favourites",
+      "description": "Personal project that fetch recipes from the Tasty API and provide several filtering capabilities and locally persisted list of favourites",
       "images": [
         "images/portfolio/tasty/1.png",
         "images/portfolio/tasty/2.png",
@@ -57,7 +57,7 @@
         "images/portfolio/calculator/2.png",
         "images/portfolio/calculator/3.png"
       ],
-      "url": "https://github.com",
+      "url": "https://diaz-camilo.github.io/React-Calculator/",
       "technologies": [
         {
           "class": "devicon-react-original",

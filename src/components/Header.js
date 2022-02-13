@@ -3,7 +3,7 @@ import Typical from "react-typical";
 import Switch from "react-switch";
 
 function Header(props) {
-  const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(true);
 
   function onThemeSwitchChange(checked) {
     setChecked(checked);
