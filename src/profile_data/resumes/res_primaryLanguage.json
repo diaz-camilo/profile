@@ -68,6 +68,24 @@
           "name": "JavaScript"
         }
       ]
+    },
+    {
+      "title": "Kanban Board Desktop App",
+      "startDate": "2021",
+      "description": "Project management desktop application for managing multiple projects on a kanban board. it allows to create, modify and drag-and-drop tasks between columns, as well as, create, delete and rename tasks, columns and projects. Plain text passwords are never stores in the database, instead they are salted and hashed using the JBCrypt package for java. This stand-alone application was created using Java, JavaFX, SceneBuilder, CSS and SQLite.",
+      "images": [
+        "images/portfolio/kanban-board/1.png",
+        "images/portfolio/kanban-board/2.png",
+        "images/portfolio/kanban-board/3.png",
+        "images/portfolio/kanban-board/4.png"
+      ],
+      "url": "https://github.com/diaz-camilo/SmartBoard/",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        }
+      ]
     }
   ],
   "experience": [
