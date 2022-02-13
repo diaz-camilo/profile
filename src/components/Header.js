@@ -56,7 +56,7 @@ function Header(props) {
               className="react-switch mx-auto"
               width={90}
               height={40}
-              uncheckedIcon={
+              checkedIcon={
                 <span
                   className="iconify"
                   data-icon="twemoji:owl"
@@ -71,7 +71,7 @@ function Header(props) {
                   }}
                 ></span>
               }
-              checkedIcon={
+              uncheckedIcon={
                 <span
                   className="iconify"
                   data-icon="noto-v1:sun-with-face"

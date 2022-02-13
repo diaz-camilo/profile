@@ -32,18 +32,18 @@ function ProjectDetailsModal(props) {
       });
       if (props.data.images) {
         var media = images.map((elem) => {
-          return (
-            <div
-              key={elem}
-              style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL}/${elem})`,
-                backgroundSize: "cover",
-                backgroundPosition: "top left",
-                height: "100%",
-                width: "100%",
-              }}
-            />
-          );
+          return { source: `${process.env.PUBLIC_URL}/${elem}` };
+          // <div
+          //   key={elem}
+
+          //   style={{
+          //     backgroundImage: `url(${process.env.PUBLIC_URL}/${elem})`,
+          //     backgroundSize: "cover",
+          //     backgroundPosition: "top left",
+          //     height: "100%",
+          //     width: "100%",
+          //   }}
+          // />
         });
       }
     }
@@ -88,8 +88,9 @@ function ProjectDetailsModal(props) {
             interval={4000}
             infinite={true}
             cssModule={AwesomeSliderStyles}
+            media={media}
           >
-            {media}
+            {/* {media} */}
           </AutoplaySlider>
         </div>
         <div className="col-md-10 mx-auto">
