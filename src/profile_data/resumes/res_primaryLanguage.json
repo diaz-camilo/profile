@@ -84,14 +84,19 @@
         {
           "class": "devicon-java-plain",
           "name": "Java"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         }
+
       ]
     }
   ],
   "experience": [
     {
       "company": "Accenture",
-      "title": "Junior Front-End Developer",
+      "title": "Junior Full-Stack Developer",
       "years": "Jan 2022 - Feb 2022",
       "mainTech": ["React", "Python", "Splunk"],
       "technologies": [
